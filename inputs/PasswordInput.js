@@ -17,12 +17,12 @@ const PasswordInput = (props) => {
     });
     const eye_slash_icon = React.createElement(EyeSlashIcon, null);
     const eye_icon = React.createElement(EyeIcon, null);
-    const button_ = React.createElement(
+    const button = React.createElement(
         Button,
         { variant: "control", onClick: () => setVisiblePasword(!visiblePasword), key:2 },
         visiblePasword ? eye_slash_icon : eye_icon
     );
-    const input_group = React.createElement(InputGroup, null, [text_input, button_]);
+    const input_group = React.createElement(InputGroup, null, [text_input, button]);
     return React.createElement(
         FormGroup,
         {

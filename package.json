@@ -1,0 +1,25 @@
+{
+  "name": "custom-inputs-from-data-driven-form-pf4",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kzolti/custom-inputs-from-data-driven-form-pf4.git"
+  },
+  "keywords": [
+    "data-driven-forms",
+    "pf4",
+    "patternfly4"
+  ],
+  "author": "Zoltan KADA<kada.zoli@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kzolti/custom-inputs-from-data-driven-form-pf4/issues"
+  },
+  "homepage": "https://github.com/kzolti/custom-inputs-from-data-driven-form-pf4#readme",
+  "dependencies": {}
+}

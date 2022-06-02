@@ -1,7 +1,7 @@
 # custom-inputs-from-data-driven-form-pf4
 custom inputs from data-driven-form and patternfly4
 
-## howto use custom-password-input in data-driven-forms:
+## how to use custom-password-input in data-driven-forms:
 yarn add custom-inputs-from-data-driven-form-pf4
 myForm.js
 ```

@@ -35,27 +35,5 @@ const PasswordInput = (props) => {
         },
         input_group
     );
-    // return (
-    //     <FormGroup
-    //         label={label}
-    //         isRequired={isRequired}
-    //         fieldId={input.name}
-    //         helperTextInvalid={meta.error}
-    //         helperTextInvalidIcon={<ExclamationCircleIcon />}
-    //         validated={meta.valid ? "default" : "error"}
-    //     >
-    //         <InputGroup>
-    //             <TextInput
-    //                 {...input}
-    //                 validated={meta.valid ? "default" : "error"}
-    //                 type={visiblePasword ? "text" : "password"}
-    //                 id={input.name}
-    //             />
-    //             <Button variant='control' onClick={() => setVisiblePasword(!visiblePasword)}>
-    //                 {visiblePasword ? <EyeSlashIcon /> : <EyeIcon />}
-    //             </Button>
-    //         </InputGroup>
-    //     </FormGroup>
-    // );
 };
 export default PasswordInput;

@@ -19,7 +19,7 @@ const PasswordInput = (props) => {
     const eye_icon = React.createElement(EyeIcon, null);
     const button = React.createElement(
         Button,
-        { variant: "control", onClick: () => setVisiblePasword(!visiblePasword), key:2 },
+        { variant: "control", tabIndex: -1, onClick: () => setVisiblePasword(!visiblePasword), key:2 },
         visiblePasword ? eye_slash_icon : eye_icon
     );
     const input_group = React.createElement(InputGroup, null, [text_input, button]);

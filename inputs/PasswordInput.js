@@ -10,7 +10,7 @@ const PasswordInput = (props) => {
     const [visiblePasword, setVisiblePasword] = useState(false);
     const text_input = React.createElement(TextInput, {
         ...input,
-        validated: meta.touched || meta.valid ? "error" : "default",
+        validated: meta.touched && !meta.valid ? "error" : "default",
         id: input.name,
         type: visiblePasword ? "text" : "password",
         key:1
@@ -31,7 +31,7 @@ const PasswordInput = (props) => {
             fieldId: input.name,
             helperTextInvalid: meta.error,
             helperTextInvalidIcon: React.createElement(ExclamationCircleIcon),
-            validated: meta.touched || meta.valid ? "error" : "default",
+            validated: meta.touched && !meta.valid ? "error" : "default",
         },
         input_group
     );

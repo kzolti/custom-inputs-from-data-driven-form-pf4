@@ -9,11 +9,13 @@ const PasswordInput = (props) => {
     const { customProp, label, input, isRequired, meta, FieldArrayProvider, dataType, ...rest } = useFieldApi(props);
     const [visiblePasword, setVisiblePasword] = useState(false);
     const text_input = React.createElement(TextInput, {
+        key:1,
+        autocomplete: "off",
         ...input,
         validated: meta.touched && !meta.valid ? "error" : "default",
         id: input.name,
         type: visiblePasword ? "text" : "password",
-        key:1
+        
     });
     const eye_slash_icon = React.createElement(EyeSlashIcon, null);
     const eye_icon = React.createElement(EyeIcon, null);

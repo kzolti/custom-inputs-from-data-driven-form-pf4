@@ -1,3 +1,4 @@
+**This package has been deprecated !** 
 # custom-inputs-from-data-driven-form-pf4
 
 custom inputs from data-driven-form and patternfly4
